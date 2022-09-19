@@ -6,13 +6,13 @@
 }
 
 .container{
-    background-color: blue;
+    background-color: red;
 }
 
 .header{
     width: 75%;
     margin: auto;
-    background-color: red;
+    background-color: blue;
     height: 100px;
 }
 
@@ -50,4 +50,73 @@ li{
     width: 150px;
     text-align: center;
     padding-top: 3%;
+}
+
+.main{
+    background-color: orange;
+    width: 55%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.left{
+    background-color: green;
+    width: 32%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.right{
+    background-color: lightgreen;
+    width: 32%;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    background-color: grey;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.section4{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    width: 1230px;
+    margin: 336px;
+}
+
+.testo{
+    background-color: blue;
+    align-items: center;
+    height: 50%;
+}
+
+.immagine{
+    background-color: aquamarine;
+    height: 50%;
+}
+
+.background{
+    background-color: grey;
 }
