@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container{
+    background-color: blue;
+}
+
+.header{
+    width: 75%;
+    margin: auto;
+    background-color: red;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    background-color: lightgreen;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.item{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 7%;
+}
+
+.menu{
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.login{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3%;
+}
