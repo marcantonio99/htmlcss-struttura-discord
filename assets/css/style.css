@@ -106,7 +106,7 @@ li{
     margin: 336px;
 }
 
-.testo{
+.test{
     background-color: blue;
     align-items: center;
     height: 50%;
@@ -119,4 +119,42 @@ li{
 
 .background{
     background-color: grey;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+}
+
+.line1{
+    background-color: orangered;
+    width: 14%;
+    height: 450px;
+}
+
+.line2{
+    background-color: brown;
+    width: 14%;
+    height: 450px;
+}
+
+.line3{
+    background-color: beige;
+    width: 14%;
+    height: 450px;
+}
+
+.line4{
+    background-color: red;
+    width: 14%;
+    height: 450px;
+}
+.line5{
+    background-color: orange;
+    width: 14%;
+    height: 450px;
 }
